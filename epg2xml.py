@@ -4,6 +4,9 @@
 from __future__ import print_function
 import os
 import sys
+sys.path.append('./requests-2.12.4/requests')
+sys.path.append('./beautifulsoup4-4.5.3/bs4')
+sys.path.append('./epg2xml/lxml-3.7.2/src/lxml')
 import requests
 import json
 import datetime
@@ -27,7 +30,7 @@ default_xml_socket = 'xmltv.sock' # External XMLTV 사용시 기본 소켓 이�
 # Set My Configuration
 
 # Set variable
-debug = False
+debug = True
 today = datetime.date.today()
 ua = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36', 'accept': '*/*'}
 CHANNEL_ERROR = ' 존재하지 않는 채널입니다.'
