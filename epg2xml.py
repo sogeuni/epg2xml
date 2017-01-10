@@ -4,9 +4,9 @@
 from __future__ import print_function
 import os
 import sys
-sys.path.append('./requests-2.12.4/requests')
-sys.path.append('./beautifulsoup4-4.5.3/bs4')
-sys.path.append('./epg2xml/lxml-3.7.2/src/lxml')
+sys.path.append('./modules/requests-2.12.4')
+sys.path.append('./modules/beautifulsoup4-4.5.3')
+sys.path.append('./modules/lxml-3.7.2/src')
 import requests
 import json
 import datetime
