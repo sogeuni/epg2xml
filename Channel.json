@@ -308,5 +308,6 @@
 {"Id":405,"KTCh":9,"SKCh":9,"LGCh":9,"Name":"충주 KBS1","Source":"SK","ServiceId":45,"Enabled":0},
 {"Id":406,"KTCh":11,"SKCh":11,"LGCh":11,"Name":"충주 MBC","Source":"SK","ServiceId":46,"Enabled":0},
 {"Id":407,"KTCh":9,"SKCh":9,"LGCh":9,"Name":"포항 KBS1","Source":"SK","ServiceId":47,"Enabled":0},
-{"Id":408,"KTCh":11,"SKCh":11,"LGCh":11,"Name":"포항 MBC","Source":"SK","ServiceId":48,"Enabled":0}
+{"Id":408,"KTCh":11,"SKCh":11,"LGCh":11,"Name":"포항 MBC","Source":"SK","ServiceId":48,"Enabled":0},
+{"Id":409,"KTCh":null,"SKCh":null,"LGCh":93,"Name":"DIA TV","Source":"SKY","ServiceId":912,"Enabled":1}
 ]
